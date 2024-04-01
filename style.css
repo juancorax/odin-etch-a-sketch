@@ -4,6 +4,21 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    avenir next,
+    avenir,
+    segoe ui,
+    helvetica neue,
+    helvetica,
+    Cantarell,
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;
+  background-color: #d3d3d3;
 }
 
 #column-container {
@@ -29,5 +44,30 @@ body {
 
 #grid-size-button {
   margin-top: 20px;
-  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    avenir next,
+    avenir,
+    segoe ui,
+    helvetica neue,
+    helvetica,
+    Cantarell,
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;
+  font-size: 25px;
+  background-color: white;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+#grid-size-button:hover {
+  color: white;
+  background-color: black;
 }
